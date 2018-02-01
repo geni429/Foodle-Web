@@ -7,7 +7,6 @@ export default class Main extends Component {
     return (
       <div>
         {HeaderNav()}
-        <div>hello</div>
       </div>
     );
   }
