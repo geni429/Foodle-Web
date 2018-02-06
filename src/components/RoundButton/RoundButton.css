@@ -1,0 +1,41 @@
+.round_btn_wrapper {
+  display: table;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.round_btn_wrapper:hover {
+  cursor: pointer;
+}
+
+.btn_full_gray {
+  background-color: #cdcdcd;
+}
+
+.btn_full_red {
+  background-color: #ee5555;
+}
+
+.btn_border_red {
+  border: solid 2.5px #ee5555;
+}
+
+.default_content {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'AppleSDGothicNeo';
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.red_content {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'AppleSDGothicNeo';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ee5555;
+}

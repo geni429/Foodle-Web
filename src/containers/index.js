@@ -1,3 +1,3 @@
-import Main from './Main';
+import MenuEditorLanding from './MenuEditorLanding';
 
-export { Main };
+export { MenuEditorLanding };

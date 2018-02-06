@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Main } from './containers';
+import { MenuEditorLanding } from './containers';
 
 const rootElement = document.getElementById('root');
-render(<Main />, rootElement);
+render(<MenuEditorLanding />, rootElement);

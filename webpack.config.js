@@ -1,15 +1,17 @@
-module.exports = {
+const path = require('path');
+
+const config = {
   entry: './src/index.js',
 
   output: {
-    path: __dirname + '/public/',
+    path: path.join(__dirname, '/public/'),
     filename: 'bundle.js'
   },
 
   devServer: {
     inline: true,
     port: 3030,
-    contentBase: __dirname + '/public/'
+    contentBase: path.join(__dirname, '/public/')
   },
 
   module: {
@@ -30,3 +32,5 @@ module.exports = {
     ]
   }
 }
+
+module.exports = config;
