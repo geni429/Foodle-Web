@@ -1,0 +1,28 @@
+.description_wrapper {
+  width: 100%;
+}
+
+.description_header {
+  font-size: 22px;
+  font-weight: 600;
+  color: #545254;
+  font-family: AppleSDGothicNeo;
+  margin-bottom: 10px;
+}
+
+.description_content {
+  font-size: 18px;
+  font-weight: 500;
+  color: #8e8e93;
+  font-family: AppleSDGothicNeo;
+  margin-bottom: 45px;
+}
+
+.disabled {
+  color: #cecdcf !important;
+}
+
+.div_line {
+  border: solid 0.5px #8e8e93;
+  margin-bottom: 35px;
+}
