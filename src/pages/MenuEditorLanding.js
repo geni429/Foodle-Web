@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import { RoundButton } from '../components';
+import { RoundButton, HeaderNav, LandingBanner } from '../components';
 
 class MenuEditorLanding extends Component {
   render() {
     return (
       <div>
-        {RoundButton(2, '계속하기')}
+        {HeaderNav()}
+        {LandingBanner()}
+        <section></section>
       </div>
     );
   }
