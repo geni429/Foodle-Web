@@ -27,6 +27,14 @@ class MenuEditorLanding extends Component {
             RoundButton(0, '계속하기'),
             true
           )}
+          <div id={styles.landing_section_footer}>
+            <div id={styles.left_side_btn}>
+              {RoundButton(2, '미리보기')}
+            </div>
+            <div id={styles.right_side_btn}>
+              {RoundButton(1, '등록')}
+            </div>
+          </div>
         </section>
       </div>
     );
