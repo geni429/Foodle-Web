@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import PropTypes from 'prop-types';
-import styles from './RoundButton.css';
+import styles from '../assets/css/components/RoundButton.css';
 
 const RoundButton = (type, content) => {
   let btnStyle;

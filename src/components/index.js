@@ -1,4 +1,4 @@
-import HeaderNav from './HeaderNav/HeaderNav';
-import RoundButton from './RoundButton/RoundButton';
+import HeaderNav from './HeaderNav';
+import RoundButton from './RoundButton';
 
 export { HeaderNav, RoundButton };

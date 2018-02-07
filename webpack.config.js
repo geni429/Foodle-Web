@@ -8,19 +8,13 @@ const config = {
     filename: 'bundle.js'
   },
 
-  devServer: {
-    inline: true,
-    port: 3030,
-    contentBase: path.join(__dirname, '/public/')
-  },
-
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
-        query: {
+        options: {
           cacheDirectory: true,
           presets: ['es2015', 'react']
         }
@@ -30,7 +24,13 @@ const config = {
         loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
       }
     ]
-  }
+  },
+
+  devServer: {
+    inline: true,
+    port: 3030,
+    contentBase: path.join(__dirname, '/public/')
+  },
 }
 
 module.exports = config;

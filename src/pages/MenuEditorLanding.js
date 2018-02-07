@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { RoundButton } from '../components';
 
-class MenuEditor extends Component {
+class MenuEditorLanding extends Component {
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ class MenuEditor extends Component {
   }
 }
 
-export default MenuEditor;
+export default MenuEditorLanding;
