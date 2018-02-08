@@ -1,0 +1,40 @@
+.process_wrapper {
+  width: 100%;
+  font-size: 0px;
+  margin-bottom: 40px;
+}
+
+.process_num_wrapper {
+  display: inline-block;
+  width: 10%;
+  vertical-align: top;
+}
+
+.process_description {
+  display: inline-block;
+  width: 90%;
+}
+
+.description_header {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #545254;
+  font-family: AppleSDGothicNeo;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.description_content {
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+  color: #8e8e93;
+  font-family: AppleSDGothicNeo;
+  margin-bottom: 20px;
+  white-space: pre-line;
+}
+
+.disabled {
+  color: #cecdcf !important;
+}

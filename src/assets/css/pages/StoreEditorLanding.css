@@ -1,0 +1,32 @@
+#landing_section_wrapper {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+#landing_article_wrapper {
+  display: inline-block;
+  width: 43%;
+}
+
+#landing_article_header {
+  font-size: 42px;
+  font-weight: 100;
+  line-height: 1.43;
+  letter-spacing: 0.2px;
+  color: #545254;
+  text-align: left;
+  margin-bottom: 75px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#landing_image_wrapper {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 150px;
+  margin-top: 50px;
+}
