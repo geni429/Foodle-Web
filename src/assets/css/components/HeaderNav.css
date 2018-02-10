@@ -1,26 +1,77 @@
-#header_nav {
+#header_nav_wrapper {
   width: 100%;
   height: 80px;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.05);
   font-size: 0;
 }
 
+#header_nav {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
 .header_div {
-  display: flex;
   width: 50%;
   height: 100%;
   float: left;
-  align-items: center;
-  justify-content: center;
+  position: relative;
 }
 
-.header_content {
-  font-size: 20px;
-  font-weight: 900;
+.header_left_content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.header_right_content {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+#foodle_text_logo {
+  margin-right: 45px;
+  vertical-align: middle;
+}
+
+#search_logo {
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+#search_input {
+  width: 300px;
+  height: 25px;
+  border-radius: 8px;
+  border: 0;
+  background-color: rgba(238, 85, 85, 0.2);
+  box-shadow: 0 0 0 0 rgba(238, 85, 85, 0.2);
+  vertical-align: middle;
+}
+
+.header_nav_btn {
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.1px;
   color: #ee5555;
-  font-family: AppleSDGothicNeo;
+  margin-right: 25px;
+  vertical-align: middle;
 }
 
-.header_content:hover {
-  cursor: pointer;
+#user_profile_img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 50%;
+  border: solid 2px #ee5555;
+}
+
+#restaurant_logo {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
 }
