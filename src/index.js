@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { MenuEditorLanding, StoreEditorLanding } from './pages';
+import { MenuEditorLanding, StoreEditorLanding, StoreBasicInfos } from './pages';
 
 const rootElement = document.getElementById('root');
-render(<StoreEditorLanding />, rootElement);
+render(<StoreBasicInfos />, rootElement);

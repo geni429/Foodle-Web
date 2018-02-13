@@ -1,0 +1,16 @@
+#basic_infos_section {
+  width: 570px;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+#section_footer {
+  margin-top: 60px;
+  position: relative;
+}
+
+#right_side_btn {
+  position: absolute;
+  right: 0;
+}

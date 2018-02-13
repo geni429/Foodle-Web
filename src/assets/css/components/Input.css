@@ -1,0 +1,33 @@
+.base_input_wrapper {
+  position: relative;
+  height: 40px;
+}
+
+.base_input {
+  width: calc(100% - 40px);
+  border: 0;
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
+
+.base_input_check_wrapper {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+}
+
+.base_input_check {
+  width: 6px;
+  height: 6px;
+  background: #cecdcf;
+  border-radius: 50%;
+  margin: 14px 14px 14px 14px;
+}
